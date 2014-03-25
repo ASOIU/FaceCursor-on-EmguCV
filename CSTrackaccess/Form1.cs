@@ -75,6 +75,10 @@ namespace CSTrackaccess
                 imgOriginal.Draw(circle, new Bgr(Color.Red), 3);                
             }
             */
+<<<<<<< HEAD
+=======
+          
+>>>>>>> project
 
             using (Image<Bgr, Byte> nextFrame = capWebCam.QueryFrame())
             {
@@ -85,7 +89,11 @@ namespace CSTrackaccess
                                                                     new Size(nextFrame.Width/8, nextFrame.Height/8))[0];
                     foreach (var face in faces)
                     {
+<<<<<<< HEAD
                         nextFrame.Draw(face.rect, new Bgr(7, double.MaxValue, 0), 1);
+=======
+                        nextFrame.Draw(face.rect, new Bgr(7, double.MaxValue, 0), 3);
+>>>>>>> project
                         Cursor.Position = new Point((int)(face.rect.X * scaleW + face.rect.Width/2), 
                             (int) (face.rect.Y *scaleH + face.rect.Height/2));                       
                     }

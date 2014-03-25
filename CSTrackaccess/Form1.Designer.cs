@@ -36,22 +36,37 @@
             // 
             // ibOriginal
             // 
+<<<<<<< HEAD
             this.ibOriginal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ibOriginal.Location = new System.Drawing.Point(10, 11);
             this.ibOriginal.Name = "ibOriginal";
             this.ibOriginal.Size = new System.Drawing.Size(467, 398);
+=======
+            this.ibOriginal.Location = new System.Drawing.Point(13, 13);
+            this.ibOriginal.Margin = new System.Windows.Forms.Padding(4);
+            this.ibOriginal.Name = "ibOriginal";
+            this.ibOriginal.Size = new System.Drawing.Size(623, 490);
+>>>>>>> project
             this.ibOriginal.TabIndex = 2;
             this.ibOriginal.TabStop = false;
             // 
             // btnPauseOrResume
             // 
+<<<<<<< HEAD
             this.btnPauseOrResume.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPauseOrResume.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnPauseOrResume.Location = new System.Drawing.Point(10, 415);
             this.btnPauseOrResume.Name = "btnPauseOrResume";
             this.btnPauseOrResume.Size = new System.Drawing.Size(113, 43);
+=======
+            this.btnPauseOrResume.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnPauseOrResume.Location = new System.Drawing.Point(13, 511);
+            this.btnPauseOrResume.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPauseOrResume.Name = "btnPauseOrResume";
+            this.btnPauseOrResume.Size = new System.Drawing.Size(151, 53);
+>>>>>>> project
             this.btnPauseOrResume.TabIndex = 4;
             this.btnPauseOrResume.Text = "pause";
             this.btnPauseOrResume.UseVisualStyleBackColor = true;
@@ -59,6 +74,7 @@
             // 
             // Form1
             // 
+<<<<<<< HEAD
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(488, 473);
@@ -68,6 +84,18 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FaceCursor";
+=======
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(651, 582);
+            this.Controls.Add(this.btnPauseOrResume);
+            this.Controls.Add(this.ibOriginal);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Kinect";
+>>>>>>> project
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ibOriginal)).EndInit();
             this.ResumeLayout(false);

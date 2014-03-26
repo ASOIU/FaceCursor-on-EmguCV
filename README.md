@@ -5,7 +5,8 @@ FaceCursor-on-EmguCV
 Приложение было написано на ЯВУ с# в интегрированной среде разработке Visual Studio, для подключения всех необходимых зависимостей  к проекту удобней воспользоваться видео руководством по адресу:https://www.youtube.com/watch?v=vdjoutNR2DQ. 
 
 При загрузке формы создается объект класса "Capture", который находит в  списке доступных web-камер, установленную по умолчаннию, загружает  каскады Хаара, необходимых для опознания на изображении лица:
- try
+
+            try
             {
                 capWebCam = new Capture();
             }
@@ -16,7 +17,8 @@ FaceCursor-on-EmguCV
             haarCasc = new HaarCascade("haarcascade_frontalface_alt2.xml");
             Application.Idle += processFrameAndUpdateGUI;
             blnCapturingProcess = true;
-            Cursor.Position = new Point(SystemInformation.PrimaryMonitorSize.Width / 2, SystemInformation.PrimaryMonitorSize.Height / 2);
+            Cursor.Position = new Point(SystemInformation.PrimaryMonitorSize.Width / 2, 
+                                              SystemInformation.PrimaryMonitorSize.Height / 2);
             scaleW = SystemInformation.PrimaryMonitorSize.Width / ibOriginal.Size.Width;
             scaleH = SystemInformation.PrimaryMonitorSize.Height / ibOriginal.Size.Height; 
 
